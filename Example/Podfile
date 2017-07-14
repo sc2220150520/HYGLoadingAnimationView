@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HYGLoadingAnimationViewLib_Example' do
+  pod 'HYGLoadingAnimationViewLib', :path => '../'
+
+  target 'HYGLoadingAnimationViewLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
