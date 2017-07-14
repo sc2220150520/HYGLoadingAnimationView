@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'HYGLoadingAnimationViewLib_Example' do
-  pod 'HYGLoadingAnimationViewLib', :path => '../'
+  pod ‘HYGLoadingAnimationViewLib', :path => '../'
 
   target 'HYGLoadingAnimationViewLib_Tests' do
     inherit! :search_paths

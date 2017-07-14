@@ -37,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E1893E4E114CF2B3B10E7AF /* HYGLoadingAnimationViewLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYGLoadingAnimationViewLib.podspec; path = ../HYGLoadingAnimationViewLib.podspec; sourceTree = "<group>"; };
+		23F2FCCB1F18C8FE00F55EEE /* libHYGLoadingAnimationViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHYGLoadingAnimationViewLib.a; path = ../HYGLoadingAnimationViewLib/Classes/libHYGLoadingAnimationViewLib.a; sourceTree = "<group>"; };
+		23F2FCCE1F18CB5900F55EEE /* HYGLoadingAnimationViewLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYGLoadingAnimationViewLib.framework; path = "../../../../Library/Developer/Xcode/DerivedData/HYGLoadingAnimationViewLib-eugwkebhbecgfydxciftwihncaxq/Build/Products/Debug-iphonesimulator/HYGLoadingAnimationViewLib/HYGLoadingAnimationViewLib.framework"; sourceTree = "<group>"; };
+		23F2FCD11F18D00200F55EEE /* lHYGLoadingAnimationViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lHYGLoadingAnimationViewLib.a; path = ../HYGLoadingAnimationViewLib/Classes/lHYGLoadingAnimationViewLib.a; sourceTree = "<group>"; };
+		3E1893E4E114CF2B3B10E7AF /* HYGLoadingAnimationViewLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYGLoadingAnimationViewLib.podspec; path = ../HYGLoadingAnimationViewLib.podspec; sourceTree = "<group>"; };
 		46E1C8EF66C061ABDA6C9FDC /* Pods-HYGLoadingAnimationViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYGLoadingAnimationViewLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYGLoadingAnimationViewLib_Tests/Pods-HYGLoadingAnimationViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DFAA4F974F8610C0BE8D4A9 /* Pods_HYGLoadingAnimationViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYGLoadingAnimationViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HYGLoadingAnimationViewLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYGLoadingAnimationViewLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,11 +62,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68BB34566F2FDD694FFC4580 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		68BB34566F2FDD694FFC4580 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD88A2559FD7FCD27DC1B434 /* Pods_HYGLoadingAnimationViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYGLoadingAnimationViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF4683FECC04B637B07C767 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFF4683FECC04B637B07C767 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D3B6102EAD17BB0D97C9CC21 /* Pods-HYGLoadingAnimationViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYGLoadingAnimationViewLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYGLoadingAnimationViewLib_Example/Pods-HYGLoadingAnimationViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D62146D57123D824D8B33C44 /* Pods-HYGLoadingAnimationViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYGLoadingAnimationViewLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYGLoadingAnimationViewLib_Example/Pods-HYGLoadingAnimationViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC34A9D904F68770C6688432 /* Pods-HYGLoadingAnimationViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYGLoadingAnimationViewLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYGLoadingAnimationViewLib_Tests/Pods-HYGLoadingAnimationViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +133,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23F2FCD11F18D00200F55EEE /* lHYGLoadingAnimationViewLib.a */,
+				23F2FCCE1F18CB5900F55EEE /* HYGLoadingAnimationViewLib.framework */,
+				23F2FCCB1F18C8FE00F55EEE /* libHYGLoadingAnimationViewLib.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
