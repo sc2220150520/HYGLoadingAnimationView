@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HYGLoadingAnimationViewLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HYGLoadingAnimationViewLib.'
+  s.summary          = 'Just Testing HYGLoadingAnimationView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,21 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        testing private Podspec.
+                       * markdown format.
+                       * Dont worry about the lndent, we strip it
                        DESC
 
-  s.homepage         = 'https://github.com/shen chen/HYGLoadingAnimationViewLib'
+  s.homepage         = 'https://github.com/sc2220150520/HYGLoadingAnimationView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shen chen' => '1737697199@qq.com' }
-  s.source           = { :git => 'https://github.com/shen chen/HYGLoadingAnimationViewLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sc2220150520/HYGLoadingAnimationView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
-  #s.source_files = 'HYGLoadingAnimationViewLib/Classes/**/*'
-    s.vendored_libraries = 'HYGLoadingAnimationViewLib/Classes/**/*.a'
-  
+  s.source_files = 'HYGLoadingAnimationViewLib/Classes/**/*.{h,m}'
+  s.vendored_libraries = 'HYGLoadingAnimationViewLib/Classes/**/*.a'
+  #s.libraries = 'HYGLoadingAnimationViewLib/Classes/**/*.a'
   # s.resource_bundles = {
   #   'HYGLoadingAnimationViewLib' => ['HYGLoadingAnimationViewLib/Assets/*.png']
   # }

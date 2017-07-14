@@ -1,9 +1,9 @@
 {
   "name": "HYGLoadingAnimationViewLib",
   "version": "0.1.0",
-  "summary": "A short description of HYGLoadingAnimationViewLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/shen chen/HYGLoadingAnimationViewLib",
+  "summary": "Just Testing HYGLoadingAnimationView",
+  "description": "testing private Podspec.\n* markdown format.\n* Dont worry about the lndent, we strip it",
+  "homepage": "https://github.com/sc2220150520/HYGLoadingAnimationView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,13 @@
     "shen chen": "1737697199@qq.com"
   },
   "source": {
-    "git": "https://github.com/shen chen/HYGLoadingAnimationViewLib.git",
+    "git": "https://github.com/sc2220150520/HYGLoadingAnimationView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.3"
   },
+  "source_files": "HYGLoadingAnimationViewLib/Classes/**/*.{h,m}",
   "vendored_libraries": "HYGLoadingAnimationViewLib/Classes/**/*.a",
   "public_header_files": "HYGLoadingAnimationViewLib/Classes/**/*.h"
 }
