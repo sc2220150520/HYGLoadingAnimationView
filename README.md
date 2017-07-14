@@ -1,0 +1,2 @@
+# HYGLoadingAnimationView
+LoadingAnimationView
